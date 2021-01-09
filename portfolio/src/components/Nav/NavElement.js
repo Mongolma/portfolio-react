@@ -8,6 +8,7 @@ height: 80px;
 // margin-top: -80px;
 display: flex;
 justify-content: center;
+align-items: center;
 font-size: 1 rem;
 position: sticky;
 top: 0;
@@ -60,7 +61,6 @@ display: flex;
 align-items: center;
 list-style: none;
 text-align: center;
-// margin-right: -22px;
 
 @media screen and (max-width: 768px) {
     display: none;
@@ -68,7 +68,7 @@ text-align: center;
 `;
 
 export const NavItem = styled.li`
-height: 200px;
+height: 0px;
 `;
 
 export const NavLinks = styled(LinkScroll)`
@@ -80,7 +80,12 @@ padding: 22px 1rem;
 height: 100%;
 cursor: pointer;
 
-&.active{
+&:hover {
+    color: #01bf71;
+    transition: 0.2s ease-in-out;
+}
+
+&.active {
     border-bottom: 3px solid #01bf71;
 }
 `;

@@ -1,13 +1,13 @@
+import React from 'react';
 import './App.css';
-import NavBar from "./components/Nav";
 import {BrowserRouter as Router} from 'react-router-dom';
-import SideBar from './components/SideBar';
+import Home from "./Pages";
 
 function App() {
   return (
     <Router>
-      <SideBar />
-      <NavBar />
+      <Home />
+   
     </Router>
   );
 }
