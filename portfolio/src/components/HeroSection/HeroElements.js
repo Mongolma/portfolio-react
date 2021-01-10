@@ -10,6 +10,22 @@ padding: 0 30px;
 height: 800px;
 position: relative;
 z-index: 1
+flex-direction: column;
+object-fit: contain;
+
+:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    rigth: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, 
+    rgba(0, 0, 0, 0.6) 100%);
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    z-index: 2;
+
+}
 `
 
 export const Herobg = styled.div`
@@ -34,10 +50,9 @@ export const HeroContent = styled.div`
 z-index: 3;
 max-width: 1200px;
 position: absolute;
-padding: 8px 24px;
+padding: 8px 384px;
 display: flex;
 flex-direction: column;
-
 display: flex;
 justify-content: center;
 align-items: center;
@@ -59,7 +74,7 @@ margin-top: 24px;
 color: #fff;
 font-size: 24px;
 text-align: center;
-max-width: 600px;
+
 
 @media screen and (max-width: 768px) {
     font-size: 24px;
