@@ -1,22 +1,30 @@
 import React from 'react'
-import {SideBarContainer, Icon, CloseIcon, SideBarWrapper, SidebarLink, SideBarMenu} from "./SideBarElements"; 
+import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink} from './SidebarElements';
 
-const SideBar = ({isOpen, toggle}) => {
+
+const Sidebar = ({ isOpen, toggle }) => {
     return (
-        <SideBarContainer isOpen={isOpen} onClick={toggle}>
-            <Icon onClick={toggle}>
-             < CloseIcon/>
-            </Icon>
-            <SideBarWrapper>
-                <SideBarMenu>
-                    <SidebarLink to='about' onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to='projects' onClick={toggle}>Projects</SidebarLink>
-                    <SidebarLink to='contact' onClick={toggle}>Contact</SidebarLink>
-                </SideBarMenu>
-            </SideBarWrapper>
-        </SideBarContainer>
-      
-    )
-}
+        <>
+         <SidebarContainer isOpen={isOpen} onClick={toggle} >
+             <Icon onClick={toggle}>
+                 <CloseIcon />
+             </Icon>
+             <SidebarWrapper>
+                 <SidebarMenu>
+                     <SidebarLink to='about' onClick={toggle}>
+                        About
+                     </SidebarLink>
+                     <SidebarLink to='project' onClick={toggle}>
+                      Projects
+                     </SidebarLink>
+                     <SidebarLink to='contact' onClick={toggle}>
+                        Contact
+                     </SidebarLink>
+                 </SidebarMenu>
+             </SidebarWrapper>
+             </SidebarContainer>   
+        </>
+    );
+};
 
-export default SideBar;
+export default Sidebar

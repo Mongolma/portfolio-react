@@ -1,33 +1,32 @@
-import React, {useState} from 'react';
-import Video from '../../Videos/video.mp4';
-import {Button} from "../ButtonElement";
-import {HeroContainer, Herobg, Videobg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
+import React, { useState } from 'react'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, ArrowForward, ArrowRight, HeroBtnWrapper, } from './HeroElements';
+import Video from '../../videos/video.mp4';
+import {Button} from '../ButtonElement'
 
-const HeroSection = () => {
-    const [hover, setHover] = useState(false)
-
-    const onHover = () => {
-        setHover(!hover)
-    }
-
-    return (
-        <HeroContainer id='home'>
-            <Herobg>
-                <Videobg autoPlay loop muted src={Video} type='video.mp4'/>
-            </Herobg>
-            <HeroContent>
-                <HeroH1>Mongolmaa Gurbazar</HeroH1>
-                    <HeroP>I'm full stack web developer</HeroP>
-                         <HeroBtnWrapper>
-                                <Button to='project' onMouseEnter={onHover} onMouseLeave={onHover}
-                                primary='true' dark='true'>
-                                Project {hover ? <ArrowForward /> : <ArrowRight />}
-                            </Button>    
-                    </HeroBtnWrapper>
-         </HeroContent>
-        </HeroContainer>
-        
-    )
+const HeroSection  = () => {
+const [hover, setHover] = useState();
+const onHover = () => {
+    setHover(!hover)
 }
+    return (
+        <HeroContainer>
+            <HeroBg>
+                <VideoBg autoPlay loop muted src={Video} type='video/pm4' />
+            </HeroBg>
+            <HeroContent>
+                <HeroH1> Mongolmaa Gurbazar </HeroH1>
+                <HeroP>
+                   I'm a full stack web developer     
+                </HeroP>
+                <HeroBtnWrapper>
+                    <Button to='projects' onMouseEnter={onHover} primary='true'
+                    dark='true'>
+                        Projects {hover ? <ArrowForward /> : <ArrowRight />}
+                    </Button>
+                </HeroBtnWrapper>
+            </HeroContent>
+        </HeroContainer>
+    );
+};
 
-export default HeroSection
+export default HeroSection;
