@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom'
 
 export const ProjectContainer = styled.div`
 height: 800px;
@@ -34,7 +35,12 @@ padding: 0 50px;
     padding: 0 20px;
 }
 `;
-
+  export const ProjectLink = styled(Link)`
+  text-decoration: none;
+  &:hover {
+    color: #01bf71;
+    transition: 0.3s ease-out;
+  `;
 export const ProjectCard = styled.div`
 backgroud: #fff;
 display: flex;
@@ -78,10 +84,12 @@ color: #010606;
 text-align: center;
 align-items: center;
 justify-content: center;
+
 `;
 
 export const ProjectP = styled.p`
 font-size: 1rem;
-text-align: center;
+// text-align: center;
 color: #010606;
+text-decoration: none;
 `;
