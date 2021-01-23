@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 const Footer = () => {
     return (
         <FooterContainer>
-            {/* <FooterWrap> */}
+            <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinkWrapper>
                         <FooterLinkItems>
@@ -19,7 +19,7 @@ const Footer = () => {
                             </SocialIconLink>
                     </FooterLinkWrapper>
                 </FooterLinksContainer>
-            {/* </FooterWrap> */}
+            </FooterWrap>
            
         </FooterContainer>
     )

@@ -4,17 +4,26 @@ import { Link } from 'react-router-dom';
 export const FooterContainer = styled.footer`
 background-color: #101522;
 height: 80px;
+
+@media screen and (max-width: 768px) {
+     height: 80px;
+    margin-top: 500px;
+}
+@media screen and (max-width: 480px) {
+    // height: 1300px;
+    // margin-top: 500px;
+}
 `;
 
-// export const FooterWrap = styled.div`
-// //  padding: 24px 24px;
-// // display: flex;
-// // flex-direction: column;
-// // justify-content: center;
-// // align-items: center;
-// // max-width: 1100px;
-// // margin: 0 auto;
-// `;
+export const FooterWrap = styled.div`
+//  padding: 24px 24px;
+// display: flex;
+// flex-direction: column;
+// justify-content: center;
+// align-items: center;
+// max-width: 1100px;
+// margin: 0 auto;
+`;
 
 export const FooterLinksContainer = styled.div`
 display: flex;

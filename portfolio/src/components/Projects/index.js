@@ -5,7 +5,7 @@ import burger from '../../images/burger.svg';
 import schedule from '../../images/schedule.svg';
 import quiz from '../../images/quiz.svg';
 import note from '../../images/note.svg';
-import {ProjectContainer, ProjectCard, ProjectH1, ProjectImage, ProjectP, ProjectWrapper, ProjectH2, ProjectLink} from './ProjectElements';
+import {ProjectContainer, ProjectCard, ProjectH1, ProjectImage, ProjectP, ProjectWrapper, ProjectH2} from './ProjectElements';
 
 const Projects = () => {
     return (

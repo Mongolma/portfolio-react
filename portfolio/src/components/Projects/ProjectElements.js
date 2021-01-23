@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom'
 
 export const ProjectContainer = styled.div`
 height: 800px;
@@ -12,9 +11,11 @@ background: #fff;
 
 @media screen and (max-width: 768px) {
     height: 1100px;
+    margin-top: 500px;
 }
 @media screen and (max-width: 480px) {
     height: 1300px;
+    margin-top: 500px;
 }
 `;
 
@@ -35,18 +36,13 @@ padding: 0 50px;
     padding: 0 20px;
 }
 `;
-  export const ProjectLink = styled(Link)`
-  text-decoration: none;
-  &:hover {
-    color: #01bf71;
-    transition: 0.3s ease-out;
-  `;
+
 export const ProjectCard = styled.div`
 backgroud: #fff;
 display: flex;
 flex-direction: column;
-align-items: center;
 justify-content: flex-start;
+align-items: center;
 border-radius:  10px;
 max-height: 340px;
 padding: 30px;
@@ -80,16 +76,10 @@ margin-bottom: 64px;
 
 export const ProjectH2 = styled.h2`
 font-size: 1rem;
-color: #010606;
-text-align: center;
-align-items: center;
-justify-content: center;
-
+margin-bottom: 10px;
 `;
 
 export const ProjectP = styled.p`
 font-size: 1rem;
-// text-align: center;
-color: #010606;
-text-decoration: none;
+text-align: center;
 `;
