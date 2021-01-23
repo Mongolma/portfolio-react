@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
 color: #fff;
- background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
 @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -28,7 +28,7 @@ align-items: center;
 grid-template-areas: ${({ imageStart }) => (imageStart ? `'col2 col1'` : `'col1 col2'`)};
 
 @media screen and (max-width: 768px) {
-grid-template-areas: ${({ imageStart }) => (imageStart ? `'col1' 'col2'` : `'col1' 'col1' 'col2' 'col2'` )};
+grid-template-areas: ${({ imageStart }) => (imageStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'` )};
 }
 `;
 

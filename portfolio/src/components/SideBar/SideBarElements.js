@@ -36,12 +36,12 @@ color: #fff;
 `
 
 export const SidebarMenu = styled.ul`
-gisplay: grid;
+display: grid;
 grid-template-columns: 1fr;
 grid-template-rows: repeat(6, 80px);
 text-align: center;
 
-@media screen and (max-width: 480pxpx) {
+@media screen and (max-width: 480px) {
     grid-template-rows: repeat(6, 60px);
 }
 `
@@ -54,7 +54,6 @@ font-size: 1.5rem;
 text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
-text-decoration: none;
 color: #fff;
 cursor: pointer;
 margin-top: 64px;
