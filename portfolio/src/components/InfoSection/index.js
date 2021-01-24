@@ -15,7 +15,7 @@ const Info = ({lightBg, id, imageStart, topLine, lightText, headline, darkText, 
                           <Heading lightText={lightText}>{headline}</Heading>
                           <SubTitle darkText={darkText}>{description}</SubTitle>
                           <BtnWrap>
-                            <a href='../assets/resume.pdf' target='_blank'><Button to='/resume'smooth={true} duration={500} spy={true} offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button></a> 
+                            <Button to='/login' smooth={true} duration={500} spy={true} offset={-80} primary={primary ? 1 : 0} dark={dark ? 1 : 0} dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
                           </BtnWrap>
                         </TextWrapper>
                       </Column1>

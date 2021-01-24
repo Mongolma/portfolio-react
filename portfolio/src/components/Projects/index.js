@@ -22,10 +22,9 @@ const Projects = () => {
           
                 <a href='https://boiling-headland-62245.herokuapp.com/?id=5fffa9b7f60f5000175e8f1e' target='_blank'>
                 <ProjectCard>
-                
                     <ProjectImage src={workout}/>
                     <ProjectH2>Workout tracker</ProjectH2>
-                       <ProjectP>This app gives option to create a new workout or continue with their last workout.</ProjectP>
+                    <ProjectP>This app gives option to create a new workout or continue with their last workout.</ProjectP>
                 </ProjectCard>
             
                 </a>

@@ -1,12 +1,12 @@
 import React from 'react'
-import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLink, FooterLinkItems, FooterLinkTitle, FooterLinkWrapper, SocialIcons, SocialMedia, SocialIconLink, SocialMediaWrap, WebsiteCreated} from './FooterElements';
+import {FooterContainer,  FooterLinksContainer, FooterLinkItems, FooterLinkWrapper,  SocialIconLink} from './FooterElements';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
     return (
         <FooterContainer>
-            <FooterWrap>
+        
                 <FooterLinksContainer>
                     <FooterLinkWrapper>
                         <FooterLinkItems>
@@ -19,7 +19,6 @@ const Footer = () => {
                             </SocialIconLink>
                     </FooterLinkWrapper>
                 </FooterLinksContainer>
-            </FooterWrap>
            
         </FooterContainer>
     )
