@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8233ab5.chunk.css",
+    "main.js": "/static/js/main.9f13580e.chunk.js",
+    "main.js.map": "/static/js/main.9f13580e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3977b8bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3977b8bf.js.map",
+    "static/js/2.6f1530b1.chunk.js": "/static/js/2.6f1530b1.chunk.js",
+    "static/js/2.6f1530b1.chunk.js.map": "/static/js/2.6f1530b1.chunk.js.map",
+    "static/js/3.0b735922.chunk.js": "/static/js/3.0b735922.chunk.js",
+    "static/js/3.0b735922.chunk.js.map": "/static/js/3.0b735922.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a8233ab5.chunk.css.map": "/static/css/main.a8233ab5.chunk.css.map",
+    "static/js/2.6f1530b1.chunk.js.LICENSE.txt": "/static/js/2.6f1530b1.chunk.js.LICENSE.txt",
+    "static/media/burger.256941f2.svg": "/static/media/burger.256941f2.svg",
+    "static/media/note.756e188c.svg": "/static/media/note.756e188c.svg",
+    "static/media/quiz.dc42590f.svg": "/static/media/quiz.dc42590f.svg",
+    "static/media/schedule.89c2de28.svg": "/static/media/schedule.89c2de28.svg",
+    "static/media/svg-1.svg": "/static/media/svg-1.07f865f6.svg",
+    "static/media/video.7d1ea6a9.mp4": "/static/media/video.7d1ea6a9.mp4",
+    "static/media/weather.66547e44.svg": "/static/media/weather.66547e44.svg",
+    "static/media/workout.45e249ca.svg": "/static/media/workout.45e249ca.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3977b8bf.js",
+    "static/js/2.6f1530b1.chunk.js",
+    "static/css/main.a8233ab5.chunk.css",
+    "static/js/main.9f13580e.chunk.js"
+  ]
+}
