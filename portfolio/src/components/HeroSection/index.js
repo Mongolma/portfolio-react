@@ -3,7 +3,7 @@ import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, ArrowForwar
 import Video from '../../videos/video.mp4';
 import {Button} from '../ButtonElement'
 
-const HeroSection  = () => {
+const HeroSection  = ({toggle}) => {
 const [hover, setHover] = useState();
 const onHover = () => {
     setHover(!hover)
@@ -19,7 +19,7 @@ const onHover = () => {
                    I'm a full stack web developer     
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to='projects' onMouseEnter={onHover} primary='true'
+                    <Button to='projects' onClick={toggle} onMouseEnter={onHover} primary='true'
                     dark='true'>
                         Projects {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>

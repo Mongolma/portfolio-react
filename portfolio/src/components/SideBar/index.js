@@ -14,12 +14,14 @@ const Sidebar = ({ isOpen, toggle }) => {
                      <SidebarLink to='about' onClick={toggle}>
                         About
                      </SidebarLink>
-                     <SidebarLink to='project' onClick={toggle}>
+                     <SidebarLink to='projects' onClick={toggle}>
                       Projects
                      </SidebarLink>
-                     <SidebarLink to='contact' onClick={toggle}>
-                        Contact
-                     </SidebarLink>
+                     {/* <SidebarLink to='resume' onClick={toggle}>
+                        Resume
+                     </SidebarLink> */}
+                     <a className='resume' id='resume' href='../assets/resume.pdf' style={{ textDecoration: 'none', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center'}}
+                            >Resume</a>
                  </SidebarMenu>
              </SidebarWrapper>
              </SidebarContainer>   

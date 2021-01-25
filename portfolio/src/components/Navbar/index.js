@@ -41,8 +41,10 @@ const Navbar = ({ toggle }) => {
                             </NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='resume'>Resume
-                            </NavLinks>
+                            {/* <NavLinks to='resume' smooth={true} duration={500} spy={true} exact='true' offset={-80}>Resume
+                            </NavLinks> */}
+                            <a className='resume' href='../assets/resume.pdf' style={{ textDecoration: 'none', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center'}}
+                            >Resume</a>
                         </NavItem>
                         </NavMenu>
                 </NavbarContainer>

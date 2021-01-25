@@ -4,8 +4,8 @@ import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: #000;
-    heigth: 80px;
-    //margin-top: -80px;
+    height: 80px;
+    margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,10 +40,10 @@ font-weight: bold;
 text-decoration: none;
 margin-top: 24px;
 
-&:hover{
-    color: #01bf71;
-    transition: 0.2s ease-in-out;
-}
+// &:hover{
+//     color: #01bf71;
+//     transition: 0.2s ease-in-out;
+// }
 `;
 
 export const MobileIcon = styled.div`
@@ -52,10 +52,10 @@ display: none;
 @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
+    top: -16px;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     cursor: pointer;
     color: #fff;
 }
@@ -74,7 +74,7 @@ margin-right: -22px;
 `;
 
 export const NavItem = styled.li`
-height: 80px;
+//height: 80px;
 `;
 
 export const NavLinks = styled(LinkScroll)`

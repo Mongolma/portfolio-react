@@ -77,9 +77,13 @@ margin-bottom: 64px;
 export const ProjectH2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
+text-decoration: none;
+color: #010606;
 `;
 
 export const ProjectP = styled.p`
 font-size: 1rem;
 text-align: center;
+color: #010606;
+text-decoration: none;
 `;

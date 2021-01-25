@@ -16,7 +16,7 @@ const Projects = () => {
                 <ProjectCard>
                     <ProjectImage src={weather}/>
                     <ProjectH2>Travel assistant</ProjectH2>
-                       <ProjectP>This app is for travelers who wants to see the weather, language, population, currency, holiday for that city</ProjectP>
+                       <ProjectP>This app is for to see the weather, language, population, currency, holiday for that city</ProjectP>
                 </ProjectCard>
                 </a>
           

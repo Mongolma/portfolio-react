@@ -2,10 +2,12 @@ import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
 background-color: #101522;
-height: 80px;
+height: -80px;
+margin:44px;
+
 
 @media screen and (max-width: 768px) {
-     height: 80px;
+     height: 140px;
     margin-top: 500px;
 }
 @media screen and (max-width: 480px) {
@@ -19,7 +21,10 @@ display: flex;
 justify-content: center;
 
 @media screen and (max-width: 820px) {
-    padding-top: 32px;
+    padding-left: -208px;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
 }
 `;
 
@@ -50,7 +55,7 @@ color:#fff;
 
 export const SocialIconLink = styled.a`
 color: #fff;
-font-size: 24px;
+font-size: 3rem;
 margin: 24px;
 
 `;
