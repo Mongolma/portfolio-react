@@ -45,5 +45,8 @@
       "last 1 safari version"
     ],
     "homepage": "https://mongolma.github.io/portfolio-react/"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
