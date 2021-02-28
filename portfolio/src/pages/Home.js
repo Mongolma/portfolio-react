@@ -1,11 +1,11 @@
 import React , { useState }from 'react'
-import HeroSection from '../components/HeroSection';
-import Info from '../components/InfoSection';
-import Navbar from '../components/Navbar'
-import Sidebar from '../components/SideBar'
+import HeroSection from '../components/HeroSection/Hero';
+import Info from '../components/InfoSection/InfoSection';
+import Navbar from '../components/Navbar/Navbar'
+import Sidebar from '../components/SideBar/Sidebar'
 import { homeObj } from '../components/InfoSection/Data';
-import Projects from '../components/Projects';
-import Footer from '../components/Footer';
+import Projects from '../components/Projects/Projects';
+import Footer from '../components/Footer/Footer';
 
 
 
